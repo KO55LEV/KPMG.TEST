@@ -55,9 +55,9 @@ Give an example
 
 Add additional notes about how to deploy this on a live system
 
-## Built With
+## Test Data
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [XLSX Example with 20 Transactions](https://github.com/KO55LEV/KPMG.TEST/blob/master/TaxFileImport/TaxFileImport.UnitTests/TestFiles/20_transactions.xlsx) - Example to upload xlsx file. Used in testing
+* [Excel example with wrong Account column](https://github.com/KO55LEV/KPMG.TEST/blob/master/TaxFileImport/TaxFileImport.UnitTests/TestFiles/transactions_no_account.xlsx) - Example where Account column not normaly formated
+* [Excel example with wrong Description column](https://github.com/KO55LEV/KPMG.TEST/blob/master/TaxFileImport/TaxFileImport.UnitTests/TestFiles/transactions_no_descrip.xlsx) - Example where Description column not normaly formated
 
