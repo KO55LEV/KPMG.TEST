@@ -4,7 +4,7 @@
 Accept cookie to see the menu.
 ## Getting Started
 
-Solution has 3 projects. Web project - MVC application with 3 pages.  Default page to upload file. To see uploaded data navigate to "ViewUploadedData". 
+Solution has 3 projects. Web project - MVC application with 3 pages.  Default page to upload a file. To see uploaded data, please navigate to "ViewUploadedData". 
 Currently data is stored in memory but created dummy classes for future implementation for Entity Framework or SQL/MySQL data providers. 
 
 Iso loaded from json data file through iso data provider (could be changed to any iso provider)
