@@ -1,6 +1,6 @@
 # KPMG.TEST
 
-## Working Solution uploaded here http://taxfileimport.azurewebsites.net/
+## Working Solution uploaded to Azure: http://taxfileimport.azurewebsites.net/
 Accept cookie to see the menu.
 ## Getting Started
 
