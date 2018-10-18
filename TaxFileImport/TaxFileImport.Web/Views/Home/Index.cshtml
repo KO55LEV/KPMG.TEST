@@ -1,0 +1,38 @@
+﻿@model TaxFileImport.Web.Models.FileUpload
+
+@{
+    ViewData["Title"] = "Upload Tax File";
+}
+
+<style>
+  .validation-summary { display:none; }
+  .validation-summary.validation-summary-error { display: block; }
+</style>
+ 
+<h3>Upload Tax File</h3>
+<div class="row">
+  <div class="col-md-4">
+    <form method="post" enctype="multipart/form-data">
+
+      <div class="form-group">
+        <label asp-for="@Model.UploadTaxFile" class="control-label"></label>
+        <input asp-for="@Model.UploadTaxFile" type="file" class="form-control" style="height:auto" />
+        <span class="text-info">file should be uploaded in .xlsx format</span><br>
+
+
+      </div>
+      <input type="submit" value="Upload" class="btn btn-default" />
+     
+    </form>
+  </div>
+  <div class="col-md-5">
+    @if (@ViewData["UploadMessage"] != null)
+    {
+      <div class="alert alert-success">@ViewData["UploadMessage"]</div>
+    }
+      <div>@Html.ValidationSummary()</div>
+    
+  
+  </div>
+
+</div>

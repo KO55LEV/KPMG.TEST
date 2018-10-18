@@ -1,0 +1,12 @@
+C:\Dev\TestProjects\kpmg\TaxFileImport\TaxFileImport.Core\bin\Debug\netcoreapp2.1\TaxFileImport.Core.deps.json
+C:\Dev\TestProjects\kpmg\TaxFileImport\TaxFileImport.Core\bin\Debug\netcoreapp2.1\TaxFileImport.Core.dll
+C:\Dev\TestProjects\kpmg\TaxFileImport\TaxFileImport.Core\bin\Debug\netcoreapp2.1\TaxFileImport.Core.pdb
+C:\Dev\TestProjects\kpmg\TaxFileImport\TaxFileImport.Core\obj\Debug\netcoreapp2.1\TaxFileImport.Core.csproj.CoreCompileInputs.cache
+C:\Dev\TestProjects\kpmg\TaxFileImport\TaxFileImport.Core\obj\Debug\netcoreapp2.1\TaxFileImport.Core.AssemblyInfoInputs.cache
+C:\Dev\TestProjects\kpmg\TaxFileImport\TaxFileImport.Core\obj\Debug\netcoreapp2.1\TaxFileImport.Core.AssemblyInfo.cs
+C:\Dev\TestProjects\kpmg\TaxFileImport\TaxFileImport.Core\obj\Debug\netcoreapp2.1\TaxFileImport.Core.dll
+C:\Dev\TestProjects\kpmg\TaxFileImport\TaxFileImport.Core\obj\Debug\netcoreapp2.1\TaxFileImport.Core.pdb
+C:\Dev\TestProjects\kpmg\TaxFileImport\TaxFileImport.Core\obj\Debug\netcoreapp2.1\TaxFileImport.Core.csprojResolveAssemblyReference.cache
+C:\Dev\TestProjects\kpmg\TaxFileImport\TaxFileImport.Core\bin\Debug\netcoreapp2.1\Resources\iso4214.json
+C:\Dev\TestProjects\kpmg\TaxFileImport\TaxFileImport.Core\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Dev\TestProjects\kpmg\TaxFileImport\TaxFileImport.Core\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Caching.Abstractions.xml

@@ -1,0 +1,45 @@
+﻿@model List<TaxFileImport.Core.Model.Transaction>
+
+<h2>@ViewData["Title"]</h2>
+
+<p>Uploaded @Model.Count transactions:</p>
+
+<div class="container">
+  <div class="row">
+    
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Account</th>
+          <th scope="col">Description</th>
+          <th scope="col">ISO</th>
+          <th scope="col">Amount</th>
+          <th scope="col">Delete</th>
+          <th scope="col">Update</th>
+        </tr>
+      </thead>
+      <tbody>
+      @{ int counter = 1; }
+      @foreach (var transaction in Model)
+      {
+        <tr>
+          <th scope="row">@counter</th>
+          <td>@Html.DisplayFor(modelItem => transaction.Account)</td>
+          <td>@Html.DisplayFor(modelItem => transaction.Description)</td>
+          <td>@Html.DisplayFor(modelItem => transaction.CurrencyCode)</td>
+          <td>@Html.DisplayFor(modelItem => transaction.Amount)</td>
+          <td><a href="#">Delete</a></td>
+          <td><a href="#">Update</a></td>
+        </tr>
+        
+          counter++;
+        
+      }
+      </tbody>
+    </table>
+
+    
+  </div>
+</div>
+
