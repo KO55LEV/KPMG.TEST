@@ -3,57 +3,24 @@
 
 ## Getting Started
 
-To 
+Solution has 3 projects. Web project - MVC application with 3 pages.  Default page to upload file. To see uploaded data navigate to "ViewUploadedData". 
+Currently data is stored in memory but created dummy classes for future implementation for Entity Framework or SQL/MySQL data providers. 
 
-### Prerequisites
+Iso loaded from json data file through iso data provider (could be changed to any iso provider)
 
-What things you need to install the software and how to install them
+Unit tests are in project TaxFileImport.UnitTests
 
+Project written on .NET Core.   + VS 2017. 
+
+Should be run without any preparations. 
+
+The EXCEL file should be in format: 
 ```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
+Account|Description|Currency Code|Amount
 ```
 
-And repeat
 
-```
-until finished
-```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Test Data
 
